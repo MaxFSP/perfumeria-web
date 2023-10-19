@@ -1,0 +1,23 @@
+/* market.scss */
+.market-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  min-width: 170vh;
+  height: 100vh;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 2 columns */
+  gap: 20px; /* Adjust the gap as needed */
+  padding: 20px;
+  //flex-grow: 1;
+  overflow: auto; /* Add overflow for scrolling if necessary */
+}

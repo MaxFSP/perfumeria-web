@@ -1,0 +1,52 @@
+#modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalDiv {
+  background-color: #242424;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px;
+}
+#modal:empty {
+  display: none;
+}
+
+.buttonsDiv {
+  margin-top: 20px;
+}
+.yesButton {
+  width: 150px;
+  margin-left: 10px;
+}
+.noButton {
+  width: 150px;
+  margin-left: 100px;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
